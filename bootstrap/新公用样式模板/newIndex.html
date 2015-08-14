@@ -15,7 +15,7 @@ h1{
 </head>
 <body>
 	<div class="container">
-    <a href="#">链接测试</a>
+    <a href="#">默认链接样式</a>  &nbsp;&nbsp;&nbsp;<a href="#" class="text-primary">链接样式一</a>&nbsp;&nbsp;&nbsp;<a href="#" class="text-success">链接样式二</a>&nbsp;&nbsp;&nbsp;<a href="#" class="text-warning">链接样式三</a>
     <div class="x-blank"></div>
     <input type="text" value="字体大小">
     <div class="x-blank"></div>
@@ -29,36 +29,22 @@ h1{
     <hr></hr>
     <div class="">hr分割线</div>
      <div class="x-blank"></div>
-    <h3>placeholder <input type="text" placeholder="placeholder"></h3>
-     <div class="x-blank"></div>
+    <h3>placeholder </h3>
+    <input type="text" placeholder="placeholder">
+    
+    <div class="x-blank"></div>
     <h3>table</h3>
     <table width="100%" >
       <thead>
         <tr>
-          <th>标题</th>
-          <th>标题</th>
           <th>标题</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>内容</td>
-          <td>内容</td>
-          <td>内容</td>
         </tr>
         <tr>
-          <td>内容</td>
-          <td>内容</td>
-          <td>内容</td>
-        </tr>
-        <tr>
-          <td>内容</td>
-          <td>内容</td>
-          <td>内容</td>
-        </tr>
-        <tr>
-          <td>内容</td>
-          <td>内容</td>
           <td>内容</td>
         </tr>
       </tbody>
@@ -68,6 +54,21 @@ h1{
     <div class="pull-left my-right" style="float:right">pull-left</div>
     
     <div class="x-blank"></div>
+    <h1>invisible{visibility: hidden}元素的 display 属性不被改变，并且这个元素仍然能够影响文档流的排布</h1>
+    <div class="pull-left" style="background:#eee; width:200px; height:100px;">块1,<br>中间还有个块2，被隐藏但不影响布局</div>
+    <div class="pull-left invisible" style="background:#ddd; width:200px; height:100px;">块2</div>
+    <div class="pull-left" style="background:#ccc; width:200px; height:100px;">块3</div>
+    <div class="clearfix"></div>
+    
+    <div class="x-blank"></div>
+    <h1>按钮</h1>
+    <div class=""><button class="btn btn-default">默认</button> <button class="btn btn-primary">样式一</button></div>
+    
+    <div class="x-blank"></div>
+    <h1>输入框</h1>
+    <div class="x-blank"></div>
+    <input type="text" class="form-control" placeholder="表单">
+    
     <h1>图片自适应</h1>
     <img src="img.jpg">
   </div>
