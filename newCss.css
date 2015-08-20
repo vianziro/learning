@@ -103,7 +103,7 @@ table th,table td {
   float: left !important;
 }
 
-.text-hide {
+.text-hide {  /*实际应用可删除*/
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
@@ -275,14 +275,5 @@ a.text-warning:focus {
 	}
 }
 
-/*移动端*/
-.list-inline {
-  padding-left: 0;
-  margin-left: -5px;
-}
-.list-inline > li {
-  display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-}
+
 
