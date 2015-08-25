@@ -29,7 +29,21 @@
 <script src="../jquery-1.8.3.min.js"></script>
 <script type="text/javascript">
 $(function(){
-    
+	//返回顶部
+	$(".back-top").hide();
+	$(window).scroll(function(){
+		if ($(window).scrollTop()>320){
+			$(".back-top").fadeIn();
+		}else{
+			$(".back-top").fadeOut();
+		}
+	});
+	
+	//当点击跳转链接后，回到页面顶部位置
+	$(".back-top").click(function(){
+		$('body,html').animate({scrollTop:0},200);
+		return false;
+	});
 });
 </script>
 </head>
