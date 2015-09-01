@@ -76,8 +76,7 @@ $(function(){
 		$(window).resize(function () { //屏幕改变时初始化宽度
 				IMG_WIDTH = $(window).width(); 
 				$(".tabs-box div").width($(window).width());
-				var transWidth=-IMG_WIDTH*currentImg;
-				$(".tabs-box").css({"transform":"translate3d(" + transWidth + "px,0,0)","transition-duration":"0.01s"});//要用translate3d，不能用translate
+				$(".tabs-box").css({"transform":"translate3d(" + -IMG_WIDTH*currentImg + "px,0,0)","transition-duration":"0.01s"});//要用translate3d，不能用translate
 		});
 });
 function swipeStatus(event, phase, direction, distance) {
