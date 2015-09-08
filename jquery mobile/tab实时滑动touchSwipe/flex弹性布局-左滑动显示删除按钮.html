@@ -52,6 +52,7 @@ body{
 var swipeOptions = {
 		triggerOnTouchEnd: true,
 		swipeStatus: swipeDel,
+		allowPageScroll: "vertical",
 		threshold: 25
 };
 var boxWrap;
@@ -66,22 +67,19 @@ function swipeDel(event, phase, direction, distance) {
 		if (phase == "move" && (direction == "left" || direction == "right")) {
 				var duration = 0;
 				if (direction == "left") {
-					
 							swipeBox(distance, duration);
-							console.log(distance)
 				} else if (direction == "right") {
-						swipeBox(80*curr-distance, duration);
+						if(curr==1){
+								curr=0;
+								swipeBox(80, duration);
+						}
 				}
 		} else if (phase == "cancel") {
-					
-			 		swipeBox(80*curr, 300)	
-					console.log("c")
+			 		swipeBox(80*curr, 300)	//滑动距离小于threshold时执行
 			 
 		} else if (phase == "end") {
 				if (direction == "right") {
-						/*if(Math.abs(distance).toString() < 80 ){
 								swipeBox(0, 300)	
-							}*/
 				} else if (direction == "left") {
 							swipeBox(80, 300);
 							curr =1;
