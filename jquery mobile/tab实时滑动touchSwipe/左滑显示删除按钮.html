@@ -60,7 +60,7 @@ $(function(){
 			var btnPosi=$("#btn-del").css("right").split("px")[0];
 			console.log(btnPosi);
 			if(btnPosi=="-80"){
-				$("#btn-del").animate({ right :'-80px' }, 100);
+				$("#btn-del").animate({ right :'-80px' }, 100);//定位时，用animate
 				$(".email-list li > div").css({"transform":"translate3d(-80px,0,0)","transition-duration":"0.5s"});
 			}
 		}
