@@ -33,7 +33,7 @@ h1{
     <input type="text" placeholder="placeholder">
     
     <div class="x-blank"></div>
-    <h3>table</h3>
+    <h3>表格table</h3>
     <table width="100%" >
       <thead>
         <tr>
@@ -64,6 +64,7 @@ h1{
     <h1>按钮</h1>
     <div class="">
     	<button class="btn btn-default">默认</button> <button class="btn btn-primary">样式一</button>
+      <a href="#" class="btn btn-default">链接按钮</a>
     </div>
     
     <div class="x-blank"></div>
@@ -71,13 +72,22 @@ h1{
     <input type="text" class="form-control" placeholder="表单">
     
     <div class="x-blank"></div>
-    <h1>list-inline</h1>
+    <style>
+    	.list-inline li{ display:inline-block; background:#eee; padding:10px; width:30%; word-spacing:0; letter-spacing:0}
+    </style>
+    <h1>列表list-inline,display:inline-block有空隙，用float:left没有空隙</h1>
     <ul class="list-inline">
     	<li>1</li>
     	<li>1</li>
     	<li>1</li>
     </ul>
-    
+    <style>
+			.span-inline{ text-align:center;padding:10px; border:1px solid #ccc; margin-top:10px}
+    	.span-inline span{ display:inline-block; background:#eee; padding:10px; width:40%;}
+    </style>
+    <div class="span-inline">
+    	<span>内联元素水平居中</span><span>去掉标签中间的间隔后，就没有间隙了</span>
+    </div>
     
     <div class="x-blank"></div>
     <h1>img-circle，圆形 border-radius: 50%; 头像样式名，通用为.avatar</h1>
@@ -86,6 +96,13 @@ h1{
     <div class="x-blank"></div>
     <h1>图片自适应</h1>
     <img src="img.jpg">
+    
+    <div class="x-blank"></div>
+    <h1>背景色</h1>
+    <div class="bg-primary">背景色1</div>
+    <div class="bg-success">背景色2</div>
+    
+    
   </div>
     
 </body>
