@@ -7,3 +7,5 @@
 4、svg图标，字体图标
 5、bounce应用
 6、li：target
+7.仿百度云加速，打字效果，背景动画
+8、min-device-pixel-ratio:3，设备像素比为3时，高度，背景

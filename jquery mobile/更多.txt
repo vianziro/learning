@@ -2,3 +2,4 @@
 向下则相反，用原生touch事件或用jquery touchwipe组件
 2、列表项左滑动，删除，右滑动，标记信号，
 模仿 window10 outlook，邮件列表
+3、仿苏宁易购(m.suning.com)，底部加号导航，点击+，动画展开菜单，圆形，
