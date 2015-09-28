@@ -9,3 +9,5 @@
 6、li：target
 7.仿百度云加速，打字效果，背景动画
 8、min-device-pixel-ratio:3，设备像素比为3时，高度，背景
+9、滑动开关 radio
+10、flex左右表单布局
