@@ -47,7 +47,7 @@ article p {
 }
 
 .flex-item {
-	-webkit-flex-grow:0;
+	-webkit-flex-grow:0;/*如果值为1，是铺满*/
 	-webkit-flex-shrink:0;
 	-webkit-flex-basis:10rem;  /*简写 -webkit-flex:1 0 15rem*/
   background: tomato;
@@ -58,6 +58,16 @@ article p {
   font-size: 100%;
   text-align: center;
 }
+.ls-exception-wrapper{
+	display: -webkit-flex;
+	display: -webkit-box; /*不能平均分配*/
+}
+.ls-exception-wrapper > div{
+  -webkit-flex: 1 ;  
+	-webkit-box-flex: 1;
+	background:#ccc;
+	margin:0 10px;
+}
 </style>
 </head>
 <body >
@@ -66,7 +76,7 @@ article p {
   <nav></nav>
   <article></article>
   <article>
-  	<p>1</p>
+  	<p>1阿斯顿发生的发</p>
   	<p>2</p>
   	<p>3</p>
   	<p>4</p>
@@ -90,5 +100,16 @@ article p {
   <li class="flex-item">9</li>
   <li class="flex-item">10</li>
 </ul>
+<div class="" style="height:50px"></div>
+<div class="ls-exception-wrapper">
+  <div class="ls-exception-box">
+    <div class="ls-exp-title">营业部服务器营业部服务器</div>
+  </div>
+  <div class="ls-exception-box">
+    <div class="ls-exp-title">器</div>
+  </div>
+</div>
+
 </body>
+
 </html>
