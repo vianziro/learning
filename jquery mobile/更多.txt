@@ -4,3 +4,5 @@
 模仿 window10 outlook，邮件列表
 3、仿苏宁易购(m.suning.com)，底部加号导航，点击+，动画展开菜单，圆形，
 4、输入框获取焦点是在键盘上方，图层是position：fixed或overflow的情况下
+5、html5相册上传手机图片，摄像头，视频等
+http://www.17sucai.com/search/s?q=%E4%B8%8A%E4%BC%A0
