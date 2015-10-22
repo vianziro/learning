@@ -6,3 +6,5 @@
 4、输入框获取焦点是在键盘上方，图层是position：fixed或overflow的情况下
 5、html5相册上传手机图片，摄像头，视频等
 http://www.17sucai.com/search/s?q=%E4%B8%8A%E4%BC%A0
+
+6、获取地理位置
