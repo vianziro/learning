@@ -8,3 +8,6 @@
 http://www.17sucai.com/search/s?q=%E4%B8%8A%E4%BC%A0
 
 6、获取地理位置
+7、标题行-多项--点击下拉显示项目
+8、糯米网，详情页，锚点定位
+http://m.nuomi.com/fz/deal/rohha7o1?s=d5bc10db4e8f202e7a997b6cc935f380&rid=3d70e2a954bb0f441cbaea9b6fcb8e69

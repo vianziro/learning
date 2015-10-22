@@ -28,6 +28,7 @@ var ctx = canvas.getContext('2d');
 
 function handleImage(e){
     var reader = new FileReader();
+		
     reader.onload = function(event){
         var img = new Image();
         img.onload = function(){
