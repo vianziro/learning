@@ -11,4 +11,5 @@
 8、min-device-pixel-ratio:3，设备像素比为3时，高度，背景
 9、滑动开关 radio
 10、flex左右表单布局
-11、易企秀 手机官网下拉刷新
+
+11、Safari下 a标签的active，样式无效
