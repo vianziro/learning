@@ -61,12 +61,18 @@ article p {
 .ls-exception-wrapper{
 	display: -webkit-flex;
 	display: -webkit-box; /*不能平均分配*/
+  -webkit-flex-flow: row wrap;
+	
+	justify-content: flex-srart;
+	align-items:flex-srart;
 }
 .ls-exception-wrapper > div{
-  -webkit-flex: 1 ;  
-	-webkit-box-flex: 1;
+	-webkit-flex-grow:0;/*如果值为1，是铺满*/
+	-webkit-flex-shrink:0;
+	-webkit-flex-basis:10rem;  /*简写 -webkit-flex:1 0 15rem*/
 	background:#ccc;
 	margin:0 10px;
+	width:200px;
 }
 </style>
 </head>
@@ -106,10 +112,19 @@ article p {
     <div class="ls-exp-title">营业部服务器营业部服务器</div>
   </div>
   <div class="ls-exception-box">
-    <div class="ls-exp-title">器</div>
+    <div class="ls-exp-title">器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器</div>
+  </div>
+  <div class="ls-exception-box">
+    <div class="ls-exp-title">器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器</div>
+  </div>
+  <div class="ls-exception-box">
+    <div class="ls-exp-title">器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器</div>
+  </div>
+  <div class="ls-exception-box">
+    <div class="ls-exp-title">器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器营业部服务器</div>
   </div>
 </div>
-
+直接用 li style="float:left"也是一个顺延的，做法
 </body>
 
 </html>
